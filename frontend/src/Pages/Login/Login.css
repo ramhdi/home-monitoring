@@ -1,0 +1,69 @@
+html,
+body,
+#root {
+    margin: 0;
+    height: 100%;
+}
+
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+} */
+
+.login-main {
+    width: 100%;
+    height: 100%;
+    min-height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.login-picture {
+    display: flex;
+    /* width: 100%; */
+}
+
+.login-wallpaper {
+    background-image: url("https://r4.wallpaperflare.com/wallpaper/655/278/571/bank-upper-austria-vorderer-gosausee-europe-wallpaper-6950d85d71cabd0bf6b7c8cf409136dd.jpg");
+}
+
+.login-bar {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #eaeaea;
+}
+
+.login-menu {
+    background-color: #eaeaea;
+    min-width: 500px !important;
+}
+
+.login-bar .login-menu form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+input.input-username-password {
+    width: 350px;
+}
+
+button.button-login {
+    width: 350px;
+}
